@@ -1,0 +1,53 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the 'go build' command
+*.out
+
+# Test binaries
+*.test
+
+# Output of the 'go run' command
+*.run
+
+# Go workspace file
+go.work
+
+# Go coverage tool files
+*.cover
+*.coverprofile
+*.cov
+
+# Editor and IDE files
+.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS files
+.DS_Store
+
+# Linux generated files
+*.swp
+
+# Windows generated files
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Environment variables file
+.env
+
+# Dependency directories
+vendor/
+
+# User-specific Go workspace
+$GOPATH/pkg/
+$GOPATH/bin/
+$GOPATH/src/

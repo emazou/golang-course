@@ -1,0 +1,26 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #c3e7d9;
+}
+
+header .logo a{
+    text-decoration: none;
+    color: darkslategrey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #335555;
+    margin-left: 10px;
+}
+
+header nav a:hover{
+    color: #416a6a;
+}

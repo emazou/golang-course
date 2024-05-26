@@ -1,0 +1,37 @@
+{{ template "base" . }}
+{{ define "title" }} RPS - Home {{ end }}
+{{ define "content" }}
+ <section class="container py-5">
+     <h1 class="display-4 fw-bold py-3 text-center">Welcome</h1>
+     <div class="row">
+         <div class="col-md-4">
+             <h3 class="text-center">Rock</h3>
+             <p class="text-center">Rock beats scissors</p>
+             <img src="static/img/rock_icon.png" alt="rock_icon" class="img-fluid">
+         </div>
+         <div class="col-md-4">
+             <h3 class="text-center">Paper</h3>
+             <p class="text-center">Paper beats rock</p>
+             <img src="static/img/paper_icon.png" alt="rock_icon" class="img-fluid">
+         </div>
+         <div class="col-md-4">
+             <h3 class="text-center">Scissors</h3>
+             <p class="text-center">Scissors beats paper</p>
+             <img src="static/img/scissors_icon.png" alt="rock_icon" class="img-fluid">
+         </div>
+     </div>
+     <p class="lead text-center fs-2 py-4">Play with the computer in the game "Rock, Paper, Scissors".</p>
+     <div class="d-flex justify-content-center">
+         <a href="/new" class="btn btn-success btn-lg">New game</a>
+     </div>
+ </section>
+<Section class="container py-5">
+    <h3 class="display-4 fw-bold py-3 text-center">How to play</h3>
+    <ol class="list-group list-group-numbered">
+        <li class="list-group-item">Click on the "New game" button.</li>
+        <li class="list-group-item">Choose one of the options: rock, paper, or scissors.</li>
+        <li class="list-group-item">Click on the "Play" button.</li>
+        <li class="list-group-item">See the result of the game.</li>
+    </ol>
+</Section>
+{{ end }}

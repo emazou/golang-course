@@ -1,0 +1,21 @@
+{{ template "base" . }}
+{{ define "title" }} RPS - New Game {{ end }}
+{{ define "content" }}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col py-5 text-center">
+                <h2>About</h2>
+                <p class="lead">This
+                    <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors" target="_blank">game</a>
+                    is a simple hand game that is played between two people. Each player simultaneously forms one of three
+                    shapes with an outstretched hand. The possible shapes are rock, paper, and scissors. The game has only
+                    three possible outcomes other than a tie: a player who decides to play rock will beat another player
+                    who has chosen scissors ("rock crushes scissors") but will lose to one who has played paper ("paper
+                    covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper"). If both players
+                    choose the same shape, the game is tied and is usually immediately replayed to break the tie.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
